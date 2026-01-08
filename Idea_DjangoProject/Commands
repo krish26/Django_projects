@@ -1,0 +1,32 @@
+---------------DJANGO---------
+
+to check the Django version :  python -m django --version
+To create virtual environment :  python -m venv django_env
+To activate : django_env\scripts\activate
+to view commands : django-admin
+to create project: django-admin startproject project_name
+to run surver : python manage.py runserver
+to create an app : python manage.py startapp app_name
+
+migrations to update changes: python manage.py makemigrations
+to see sql code : python manage.py sqlmigrate app_name migration_num
+to get changes updated : python manage.py migrate
+to run python shell(interactive mode ): python manage.py shell
+
+
+-----Database queries---
+
+
+
+
+
+
+
+-------conda-------
+to create env : create --name env_name python=version_num
+to check env : conda info --encs
+to activate : conda activate django_env name
+deactivate : conda deactivate
+install django : pip install django--1.11
+to create project : django-admin startproject first_project
+
