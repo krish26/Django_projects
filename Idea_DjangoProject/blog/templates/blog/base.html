@@ -35,8 +35,8 @@
                     </div>
                     <!-- Navbar Right Side -->
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="#">Login</a>
-                        <a class="nav-item nav-link" href="#">Register</a>
+                        <a class="nav-item nav-link" href="{% url 'user-login' %}">Login</a>
+                        <a class="nav-item nav-link" href="{% url 'user-register' %}">Register</a>
                     </div>
                 </div>
             </div>
@@ -47,17 +47,6 @@
         <div class="row">
             <div class="col-md-8">
                 {% block content %}{% endblock %}
-            </div>
-            <div class="col-md-4">
-                <div class="content-section">
-                    <h3>Quick links</h3>
-                    <ul class="list-group">
-                        <li class="list-group-item list-group-item-light">Latest Posts</li>
-                        <li class="list-group-item list-group-item-light">Announcements</li>
-                        <li class="list-group-item list-group-item-light">categories</li>
-                    </ul>
-                    </p>
-                </div>
             </div>
         </div>
     </main>
